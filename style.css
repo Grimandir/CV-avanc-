@@ -1,0 +1,89 @@
+.page {
+    width: 780px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 12px;
+    align-items: center; 
+    
+}
+.Nom {
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+}
+#hightlight-effect {
+        background-image:linear-gradient(45deg, yellow, red);
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        animation: glowing 2s, ease-in-out, infinite;
+       }
+@keyframes glowing {
+    0% {
+        background-position: 0 0;
+    }
+    50% {
+        background-position: 400% 0;
+    }
+    100% {
+        background-position: 0 0;
+    }
+}
+.infophoto {
+    height: 250px;
+}
+.info {
+    float: left;
+    margin-left: 20px;
+    margin-top: 20px; 
+    padding: 10px;
+}
+#a {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    margin-top: 60px;
+    margin-left: 5px;
+}
+.photo {
+    float: right;
+    position: relative;
+    top: 10px;
+    border-radius: 50%;
+}
+.section {
+    margin-left: 20px;
+    padding: 10px;
+    text-align: justify;
+       
+}
+.text-red {
+    color: red;
+    font-weight: bold;
+    font-size: 16px;
+}
+h2 {
+    font-size: 20px;
+    text-align: center;
+    color: blue;
+    border-bottom: 2px solid darkblue;
+    border-radius: 30%;
+    border-style: groove;
+    padding: 5px;    
+}
+.titre {
+    font-size: 20px;
+    font-weight: bold;
+    color: lightskyblue;
+}
+#loisir {
+    text-align: center;
+}
+
+
+
+
+
